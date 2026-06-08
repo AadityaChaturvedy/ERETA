@@ -8,7 +8,8 @@ torchmetrics~=0.11.0
 wandb==0.13.10
 geopandas~=0.12.2
 tqdm~=4.64.1
-seaborn~=0.13.0tensorflow
+seaborn~=0.13.0
+tensorflow
 scikit-learn
 imbalanced-learn
 pandas

@@ -22,10 +22,10 @@ Here is a visual overview of how ERETA integrates remote sensing, ML models, and
 ### Remote Sensing & Spatial Data
 Satellite API data is processed into mapped grids and 3D visual representations.
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="docs/assets/Satellite_Grid.jpeg" alt="Satellite Grid" width="45%" >
-  <img src="docs/assets/NDVI_Anomaly_gRID.jpeg" alt="NDVI Anomaly Grid" width="45%" >
-  <img src="docs/assets/NDWI_Grid_Info.jpeg" alt="NDWI Grid" width="45%" >
-  <img src="docs/assets/3D_NDVI.png" alt="3D NDVI Visualization" width="45%" >
+  <img src="src/docs/assets/Satellite_Grid.jpeg" alt="Satellite Grid" width="45%" >
+  <img src="src/docs/assets/NDVI_Anomaly_gRID.jpeg" alt="NDVI Anomaly Grid" width="45%" >
+  <img src="src/docs/assets/NDWI_Grid_Info.jpeg" alt="NDWI Grid" width="45%" >
+  <img src="src/docs/assets/3D_NDVI.png" alt="3D NDVI Visualization" width="45%" >
 </div>
 
 <br />
@@ -33,8 +33,8 @@ Satellite API data is processed into mapped grids and 3D visual representations.
 ### Predictive Pest Modeling
 Using LSTM models, we forecast pest risk indexes based on historical sequence data.
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="docs/assets/NDVI_LSTM_Pest.png" alt="NDVI LSTM Pest Predictions" width="45%" >
-  <img src="docs/assets/Pest_Risk.png" alt="Pest Risk Analysis" width="45%" >
+  <img src="src/docs/assets/NDVI_LSTM_Pest.png" alt="NDVI LSTM Pest Predictions" width="45%" >
+  <img src="src/docs/assets/Pest_Risk.png" alt="Pest Risk Analysis" width="45%" >
 </div>
 
 <br />
@@ -42,12 +42,12 @@ Using LSTM models, we forecast pest risk indexes based on historical sequence da
 ### Hardware Ground Nodes
 Custom ESP-32 & Arduino-based ground modules validate the satellite models with in-situ data.
 <div style="display: flex; flex-wrap: wrap; gap: 10px;">
-  <img src="docs/assets/Ground_Node_Prototype_3D.png" alt="3D Prototype" width="30%" >
-  <img src="docs/assets/Ground_Node_2D_Schematic.png" alt="2D Schematic" width="30%" >
-  <img src="docs/assets/Ground_Module.jpeg" alt="Ground Module" width="30%" >
+  <img src="src/docs/assets/Ground_Node_Prototype_3D.png" alt="3D Prototype" width="30%" >
+  <img src="src/docs/assets/Ground_Node_2D_Schematic.png" alt="2D Schematic" width="30%" >
+  <img src="src/docs/assets/Ground_Module.jpeg" alt="Ground Module" width="30%" >
 </div>
 
-*Detailed schematic and manufacturing files for the Ground Station:* [📝 PCB Ground Module Diagram (PDF)](docs/assets/PCB_PCB_Ground_Module_2025-09-07.pdf)
+*Detailed schematic and manufacturing files for the Ground Station:* [📝 PCB Ground Module Diagram (PDF)](src/docs/assets/PCB_PCB_Ground_Module_2025-09-07.pdf)
 
 ## Getting Started
 
